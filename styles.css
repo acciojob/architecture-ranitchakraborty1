@@ -10,16 +10,23 @@
 	max-width:100%;
 	height:auto;
 }
-  table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        td {
-            border: 1px solid #ddd;
-            width: 200px;
-            text-align: center;
-        }
-        .textContainer {
-            width: 600px;
-            padding: 10px;
-        }
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.firstColumn, .lastColumn {
+    width: 200px;
+}
+
+.middleColumn {
+    width: 600px;
+}
+
+.text {
+    padding: 10px;
+}
