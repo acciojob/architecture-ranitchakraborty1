@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.container{
+	width:1100px;
+}
+.imageContainer{
+	width:500px;
+	display:inline-block;
+}
+.imageContainer img{
+	max-width:100%;
+	height:auto;
+}
+  table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid #ddd;
+            width: 200px;
+            text-align: center;
+        }
+        .textContainer {
+            width: 600px;
+            padding: 10px;
+        }
